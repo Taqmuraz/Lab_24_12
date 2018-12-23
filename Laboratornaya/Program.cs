@@ -14,7 +14,7 @@ namespace Laboratornaya
 			ShowWorks ("Шелл", (int[] array) => array.ShellSort);
 			ShowWorks ("Вставка", (int[] array) => array.InsertionSort);
 		}
-		public static void ShowWorks (string algorithmName, SortOperation.ArrayDo<int> algorithm)
+		static void ShowWorks (string algorithmName, SortOperation.ArrayDo<int> algorithm)
 		{
 			Write ("Алгоритмы сортировки", ConsoleColor.Magenta);
 			Write ("\n\n" + algorithmName, ConsoleColor.Green);
@@ -27,17 +27,17 @@ namespace Laboratornaya
 				+ "\nКоличество сравнений : " + operation.comparesCount + '\n', ConsoleColor.Red);
 			array.WriteInConsole ();
 		}
-		public static void Write (string text)
+		static void Write (string text)
 		{
 			Write (text, ConsoleColor.Gray);
 		}
-		public static void Write (string text, ConsoleColor color)
+		static void Write (string text, ConsoleColor color)
 		{
 			Console.ForegroundColor = color;
 			Console.WriteLine (text);
 			Console.ForegroundColor = ConsoleColor.Gray;
 		}
-		public static string Input (string header)
+		static string Input (string header)
 		{
 			Write (header, ConsoleColor.Yellow);
 			return Console.ReadLine ();
