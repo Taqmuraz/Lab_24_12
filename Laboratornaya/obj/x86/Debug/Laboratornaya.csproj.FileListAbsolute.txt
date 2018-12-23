@@ -1,0 +1,4 @@
+C:\Users\LuLook\Documents\Projects\Laboratornaya\Laboratornaya\bin\Debug\Laboratornaya.exe
+C:\Users\LuLook\Documents\Projects\Laboratornaya\Laboratornaya\bin\Debug\Laboratornaya.pdb
+C:\Users\LuLook\Documents\Projects\Laboratornaya\Laboratornaya\obj\x86\Debug\Laboratornaya.exe
+C:\Users\LuLook\Documents\Projects\Laboratornaya\Laboratornaya\obj\x86\Debug\Laboratornaya.pdb
